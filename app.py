@@ -153,7 +153,7 @@ def user_homepage():
 
     cars = db.get_all_cars()
     rentals = db.get_all_rentals()
-    car_models = db.get_all_car_models()
+    cars_model = db.get_all_car_models()
     
     available_cars = {}
     user_rentals = []
